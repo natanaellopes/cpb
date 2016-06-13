@@ -1,0 +1,37 @@
+#dock {
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	left: 0;
+	background: url('../img/degrade.png') repeat-x top center;
+    z-index: 99;
+    height: 121px;
+}
+
+#dock .dock-container {
+	position: absolute;
+	height: 110px;
+}
+
+#dock a.dock-item {
+	display: block; 
+	font: bold 12px Arial, Helvetica, sans-serif;
+	width: 34px; 
+	color: #000; 
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#dock .dock-item span {
+	display: none;
+	text-transform: uppercase;
+}
+
+#dock .dock-item img {
+	border: none; 
+	margin: 5px 10px 0 0;
+	width: 90%; 
+}

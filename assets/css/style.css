@@ -1,0 +1,94 @@
+body {
+    position: relative;
+    color: #3C3C3B;
+    font-family: GothamBook, sans-serif;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 99;
+}
+
+header input {
+    margin-top: 30px;
+    text-align: right;
+    color: #999;
+}
+
+h1 {
+    margin: 0;
+}
+
+header a {
+    color: #333;
+    line-height: 90px;
+}
+
+header small {
+    font-weight: bold;
+}
+
+#buscar-modalidades {
+    background: url('../img/lupa.png') 8px center no-repeat;
+    padding-left: 32px;
+}
+
+#main {
+    padding: 120px 0;
+}
+
+#mascote {
+    position: relative;
+}
+
+#mascote img {
+    position: fixed;
+    width: 300px;
+}
+
+#placeholder {
+    position: fixed;
+    border: 3px solid #999;
+    background: #fff;
+    width: 240px;
+    padding: 10px;
+}
+
+#placeholder-list {
+    padding-left: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#placeholder-list:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#placeholder-list li {
+    list-style-type: none;
+}
+
+#placeholder-list li a {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#placeholder-list li a:hover {
+    text-decoration: none;
+    background: #EEE;
+}
+
+#about-container a {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: GothamBook;
+    src: url('../fonts/Gotham_Book.ttf');
+}

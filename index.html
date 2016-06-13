@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/dock.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+
+    <title>Comitê Paraolímpico Brasileiro</title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h1>
+                    <a href="./">
+                        <img class="img-responsive" src="assets/img/logo.png" alt="Comitê Paraolímpico Brasileiro">
+                    </a>
+                </h1>
+            </div>
+            <div class="col-sm-9">
+                <div class="row">
+                    <div id="about-container" class="col-sm-offset-4 col-sm-4 text-right">
+                        <a class="dock-item" data-modalidade="sobre">
+                            <small>Sobre as mascotes</small>
+                        </a>
+                    </div>
+                    <div id="buscar-modalidades-container" class="col-sm-4">
+                        <input id="buscar-modalidades" type="text" class="form-control"
+                               placeholder="Buscar modalidades">
+                        <div id="placeholder">
+                            <ul id="placeholder-list"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container" id="main">
+    <div id="infografico" class="col-sm-offset-1 col-md-6">
+        <img class="img-responsive" src="assets/img/infograficos/arco_e_flecha.jpg"/>
+    </div>
+    <div class="col-md-5" id="mascote">
+        <img class="img-responsive" src="assets/img/mascote/arco_e_flecha.png"/>
+    </div>
+</div>
+
+<div class="dock" id="dock">
+    <div class="dock-container">
+        <a data-modalidade="arco_e_flecha" class="dock-item">
+            <span>Arco e flecha</span>
+            <img src="assets/img/picto/arco_e_flecha.png" alt="home"/>
+        </a>
+        <a data-modalidade="atletismo" class="dock-item">
+            <span>Atletismo</span>
+            <img src="assets/img/picto/atletismo.png" alt="home"/>
+        </a>
+        <a data-modalidade="basquete" class="dock-item">
+            <span>Basquete</span>
+            <img src="assets/img/picto/basquete.png" alt="home"/>
+        </a>
+        <a data-modalidade="bocha" class="dock-item">
+            <span>Bocha</span>
+            <img src="assets/img/picto/bocha.png" alt="home"/>
+        </a>
+        <a data-modalidade="canoagem" class="dock-item">
+            <span>Canoagem</span>
+            <img src="assets/img/picto/canoagem.png" alt="home"/>
+        </a>
+        <a data-modalidade="ciclismo" class="dock-item">
+            <span>Ciclismo</span>
+            <img src="assets/img/picto/ciclismo.png" alt="home"/>
+        </a>
+        <a data-modalidade="esgrima" class="dock-item">
+            <span>Esgrima</span>
+            <img src="assets/img/picto/esgrima.png" alt="home"/>
+        </a>
+        <a data-modalidade="fut_5" class="dock-item">
+            <span>Futebol de 5</span>
+            <img src="assets/img/picto/fut_5.png" alt="home"/>
+        </a>
+        <a data-modalidade="fut_7" class="dock-item">
+            <span>Futebol de 7</span>
+            <img src="assets/img/picto/fut_7.png" alt="home"/>
+        </a>
+        <a data-modalidade="goalball" class="dock-item">
+            <span>Goalball</span>
+            <img src="assets/img/picto/goalball.png" alt="home"/>
+        </a>
+        <a data-modalidade="halterofilismo" class="dock-item">
+            <span>Halterofilismo</span>
+            <img src="assets/img/picto/halterofilismo.png" alt="home"/>
+        </a>
+        <a data-modalidade="hipismo" class="dock-item">
+            <span>Hipismo</span>
+            <img src="assets/img/picto/hipismo.png" alt="home"/>
+        </a>
+        <a data-modalidade="judo" class="dock-item">
+            <span>Judô</span>
+            <img src="assets/img/picto/judo.png" alt="home"/>
+        </a>
+        <a data-modalidade="natacao" class="dock-item">
+            <span>Natação</span>
+            <img src="assets/img/picto/natacao.png" alt="home"/>
+        </a>
+        <a data-modalidade="remo" class="dock-item">
+            <span>Remo</span>
+            <img src="assets/img/picto/remo.png" alt="home"/>
+        </a>
+        <a data-modalidade="rugby" class="dock-item">
+            <span>Rugby</span>
+            <img src="assets/img/picto/rugby.png" alt="home"/>
+        </a>
+        <a data-modalidade="tenis" class="dock-item">
+            <span>Tênis</span>
+            <img src="assets/img/picto/tenis.png" alt="home"/>
+        </a>
+        <a data-modalidade="tenis_mesa" class="dock-item">
+            <span>Tênis de mesa</span>
+            <img src="assets/img/picto/tenis_mesa.png" alt="home"/>
+        </a>
+        <a data-modalidade="tiro" class="dock-item">
+            <span>Tiro</span>
+            <img src="assets/img/picto/tiro.png" alt="home"/>
+        </a>
+        <a data-modalidade="triatlo" class="dock-item">
+            <span>Triatlo</span>
+            <img src="assets/img/picto/triatlo.png" alt="home"/>
+        </a>
+        <a data-modalidade="vela" class="dock-item">
+            <span>Vela</span>
+            <img src="assets/img/picto/vela.png" alt="home"/>
+        </a>
+        <a data-modalidade="voleibol" class="dock-item">
+            <span>Voleibol</span>
+            <img src="assets/img/picto/voleibol.png" alt="home"/>
+        </a>
+    </div>
+</div>
+
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript" src="assets/js/interface.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+</html>
